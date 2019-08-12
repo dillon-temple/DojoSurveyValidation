@@ -1,0 +1,23 @@
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+@model Ninja
+
+        <h1>Submitted Info</h1>
+        <div class="submission">
+            <div class="subTitle">Name:</div>
+            <div class="subData">@Model.Name</div>
+        </div>
+        <div class="submission">
+            <div class="subTitle">Dojo Location:</div>
+            <div class="subData">@Model.Location</div>
+        </div>
+        <div class="submission">
+            <div class="subTitle">Favorite Language:</div>
+            <div class="subData">@Model.Language</div>
+        </div>
+        <div class="submission">
+            <div class="subTitle">Comment:</div>
+            <div class="subData">@Model.Comment</div>
+        </div>
